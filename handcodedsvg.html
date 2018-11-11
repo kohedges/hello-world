@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hand Coded SVG Animal</title>
+  <style>
+  html, body {
+    height: 100%;
+    width: 100%;
+    background: #e9e9e9;
+  }
+  body {
+    margin: 0;
+    text-align: center;
+  }
+  .grid {
+    width: 750px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 100px;
+    background-image: url('grid.png');
+    position: relative;
+  }
+  .grid::before {
+    content: "";
+    border-left: 1px solid #7c7cea;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 750px;
+    height: 600px;
+  }
+  .grid::after {
+    content: "";
+    border-top: 1px solid #7c7cea;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 850px;
+    height: 500px;
+  }
+  svg {
+    stroke: #000;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+  }
+  .svgbody {
+    stroke: #2D8E8E;
+	fill: #3fbfbf;
+    stroke-width: 1;
+	fill-opacity: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+	    .svgbodyeye {
+    stroke: none;
+	fill: #3fbfbf;
+    stroke-width: 1;
+	fill-opacity: 2;
+    stroke-linecap: round;
+	stroke-linejoin: round;}
+	  
+   .svgnose {
+    stroke: #F369CF;
+	fill: #f9B4E7;
+    stroke-width: 1;
+	stroke-opacity: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+   .svgTeeth {
+    stroke: #000000;
+	fill: white;
+    stroke-width: 1;
+	stroke-opacity: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .svgeyeone {
+    stroke: #A9A9A9;
+	fill: white;
+    stroke-width: 1;
+	stroke-opacity: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+    .svgeyetwo {
+    stroke: #C78818;
+	fill: #eab557;
+    stroke-width: 1;
+	stroke-opacity: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+    .svgeyethree {
+    stroke: black;
+	fill: black;
+    stroke-width: 1;
+	stroke-opacity: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+    .svgbrow {
+    stroke: none;
+	fill: #775c4a;
+    stroke-width: 1;
+	stroke-opacity: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+    .svgmole {
+    stroke: black;
+	fill: #746337;
+    stroke-width: 1;
+	stroke-opacity: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+	   .svgglasses {
+    stroke: black;
+	fill: none;
+    stroke-width: 5;
+	stroke-opacity: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+	  .svgglassestwo {
+    stroke: black;
+	fill: black;
+    stroke-width: 1;
+	stroke-opacity: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+	 
+	   .svgline {
+    stroke: black;
+	fill: black;
+    stroke-width: 3;
+	stroke-opacity: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  </style>
+</head>
+<body>
+
+<div class="grid">
+<svg width="750" height="500">
+
+<!-- begin Leo -->
+<polygon points="150 100 190 40 230 100" class="svgnose" />
+<polygon points="370 100 410 40 450 100" class="svgnose" />
+<polygon points="130 500 110 360 490 360 470 500" class="svgnose" />
+<ellipse cx="190" cy="230" rx="15" ry="15" stroke="#2D8E8E" fill="#3fbfbf" fill-opacity="2" stroke-width="1" />
+<circle cx="420" cy="245" r="9" stroke="#BAA62D" fill="transparent" fill-opacity="2" stroke-width="2" />
+<ellipse cx="410" cy="230" rx="15" ry="15" stroke="#2D8E8E" fill="#3fbfbf" fill-opacity="2" stroke-width="1" />
+<polygon points="150 100 450 100 400 300 200 300" class="svgbody" />
+<polygon points="350 300 350 360 300 430 250 360 250 300" class="svgbody" />
+
+<polygon points="280 190 300 220 320 190" class="svgnose" />
+<polygon points="200 120 180 140 200 130 260 130  260 120 " class="svgbrow" />
+<polygon points="340 120  340 130  400 130 420 140 400 120" class="svgbrow" />
+<polygon points="212 180 230 150 248 180 230 205" class="svgeyeone" />
+<polygon points="352 180 370 150 388 180 370 205" class="svgeyeone" />
+<polygon points="220 180 230 160 240 180 230 195" class="svgeyetwo" />	
+<polygon points="360 180 370 160 380 180 370 195" class="svgeyetwo" />	
+<polygon points="225 180 230 170 235 180 230 187" class="svgeyethree" />
+<polygon points="365 180 370 170 375 180 370 187" class="svgeyethree" />	
+<polygon points="260 250 280 250 270 270" class="svgTeeth" />
+
+<polygon points="320 250 340 250 330 270" class="svgTeeth" />
+
+<polygon points="260 250 340 250" class="svgline" />
+	
+<polygon points="270 175 270 180 330 180 330 175 " class="svgglassestwo" />
+	
+<circle cx="330" cy="230" r="3" stroke="transparent" fill="black" fill-opacity="1" />
+
+<ellipse cx="230" cy="180" rx="37" ry="37" stroke="black" fill="transparent" fill-opacity="1" />
+<ellipse cx="370" cy="180" rx="37" ry="37" stroke="black" fill="transparent" fill-opacity="1" />
+
+<polygon points="200 120 210 120 220 130 210 130" class="svgbodyeye" />
+
+
+<ellipse cx="340" cy="285" rx="4" ry="30" fill="red" stroke="none" fill-opacity=".8" stroke-width="1" />
+	
+
+
+
+</svg>
+</div>
+
+</body>
+</html>
